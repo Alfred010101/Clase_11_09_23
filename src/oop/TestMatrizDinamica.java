@@ -19,6 +19,8 @@ public class TestMatrizDinamica
         System.out.println(objMatrizD.desplegar());
         objMatrizD.eliminar(4);
         System.out.println(objMatrizD.desplegar());
+        objMatrizD.eliminarDato(221);
+        System.out.println(objMatrizD.desplegar());
         //objMatrizD.eliminar(0);
         //System.out.println(objMatrizD.desplegar());
         //System.out.println(objMatrizD.getArr().length);
